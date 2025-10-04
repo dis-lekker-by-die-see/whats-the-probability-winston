@@ -41,6 +41,11 @@ body {
   font-size: 1.2em;
   background-color: #2e7d32a9;
   padding: 5px;
+  color: white;
+}
+
+#dropdown-container option {
+  color: white;
 }
 
 #game-container {
@@ -100,9 +105,9 @@ body {
 }
 
 .card {
-  width: 80px;
-  height: 120px;
-  perspective: 1000px;
+  width: 90px;
+  height: 110px;
+  /* perspective: 1000px; */
   border: 1px solid black;
   border-radius: 5px;
 }
