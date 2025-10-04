@@ -4,7 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
+  min-width: 40vh;
   background: #f0f0f0 url("media/background.jpg") no-repeat center center;
   background-size: cover;
   font-size: 16px;
@@ -15,12 +16,12 @@ body {
   top: 10px;
   left: 10px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.7em;
   cursor: pointer;
 }
 
 #message {
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 1.2em;
   text-align: center;
   color: white;
@@ -33,13 +34,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
+  /* margin: 0px 5px 0px 5px; */
 }
 
 #dropdown-container select {
   font-size: 1.2em;
   background-color: #2e7d32a9;
-  padding: 15px;
+  padding: 5px;
 }
 
 #game-container {
@@ -48,21 +49,21 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 300px;
-  min-height: calc(100vh - 150px);
+  /* max-width: 200px; */
+  min-height: calc(100vh - 200px);
 }
 
 .card-row {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 3px;
   width: 100%;
-  margin: 10px;
+  margin: 2px;
 }
 
 #reveal-button {
   width: 150px;
-  margin: 20px 0;
+  margin: 5px 0;
   padding: 10px 20px;
   font-size: 1.2em;
   cursor: pointer;
@@ -153,20 +154,20 @@ body {
   transition: opacity 0.5s;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 300px) {
   .card {
     width: 70px;
     height: 105px;
   }
   #game-container,
   .card-row {
-    max-width: 240px;
+    max-width: 200px;
   }
 }
 
-@media (min-width: 321px) {
+/* @media (min-width: 321px) {
   .card {
     width: min(90px, 30vw);
     height: min(135px, 45vw);
   }
-}
+} */
