@@ -130,7 +130,7 @@ function resetGame() {
     document.getElementById("game-container").classList.remove("fade-out");
     document.getElementById("dropdown-container").classList.remove("hidden");
     document.getElementById("reveal-button").classList.add("hidden");
-    document.getElementById("message").textContent = "Select number of cards";
+    document.getElementById("message").textContent = "Choose Number of Cards";
     document.getElementById("message").style.visibility = "visible";
     document
       .getElementById("reveal-button")
